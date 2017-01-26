@@ -70,40 +70,5 @@
         </dependencies>
     </dependencyManagement>
     <!--Ctrip res -->
-    <repositories>
-        <repository>
-            <id>fxrelease</id>
-            <name>fxrelease</name>
-            <url>http://maven.dev.sh.ctripcorp.com:8081/nexus/content/repositories/fxrelease/</url>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-        </repository>
-        <repository>
-            <id>fxsnapshot</id>
-            <name>fxsnapshot</name>
-            <url>http://maven.dev.sh.ctripcorp.com:8081/nexus/content/repositories/fxsnapshot/</url>
-            <releases>
-                <enabled>false</enabled>
-            </releases>
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
-        </repository>
-        <repository>
-            <id>public</id>
-            <name>public</name>
-            <url>http://maven.dev.sh.ctripcorp.com:8081/nexus/content/groups/public</url>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-        </repository>
-    </repositories>
 
 </project>
